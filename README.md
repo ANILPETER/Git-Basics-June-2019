@@ -12,9 +12,9 @@ Collection of git commands that you need to use quite often.
 ## Config related commands:
 * View user details:
 
-  `git config user.name`
-
-  `git config user.email`
+    `git config user.name`
+ 
+    `git config user.email`
 * View all details:
 
   `git config --list`
@@ -30,8 +30,6 @@ Collection of git commands that you need to use quite often.
   `git config user.name "<user_name>"`
 
   `git config user.email "<email>"`
-
-  More explanation: http://alvinalexander.com/git/git-show-change-username-email-address
 
 ## Remote related commands:
 * Get remote repository to local:
@@ -61,7 +59,6 @@ Collection of git commands that you need to use quite often.
 
   `git update-index --assume-unchanged <file>`
 
-  More explanation: http://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
 
 ## Branch related commands:
 * View branches:
@@ -76,7 +73,6 @@ Collection of git commands that you need to use quite often.
 
   `git checkout -f <branch_name>`
 
-  More explanation: http://stackoverflow.com/questions/1304626/git-switch-branch-and-ignore-any-changes-without-committing
 * Get a remote branch on local and switch to it:
 
   `git fetch && git checkout <branch_name>`
@@ -109,7 +105,6 @@ Collection of git commands that you need to use quite often.
   
   `<switch to branch and> git push origin -u <new_name>`This will reset the upstream branch for the new-name local branch:
 
-  More explanation: https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/
 * Merge a branch with another:
 
   `git checkout <destination_branch>`
@@ -123,7 +118,6 @@ Collection of git commands that you need to use quite often.
 
   `git branch -D <branch_name>` if you have uncommited/unmerged changes:
   
-  More explanation: http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely
 ## Revert related commands:
 * Revert to older commits:
 
@@ -131,7 +125,6 @@ Collection of git commands that you need to use quite often.
 
   If the commits that are being reverted were already pushed to remote do `git push --force` also, however, be very very careful, this will rewrite your history. You will lose the commit and is generally not a very nice thing to do in a collaborative environment.
 
-  More explanation: https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
 
 * Pull changes from remote ignoring any local changes:
 
@@ -143,7 +136,6 @@ Collection of git commands that you need to use quite often.
 
   `git reset file/to/unstage`
   
-  More explanation: http://data.agaric.com/undo-git-add-remove-files-staged-git-commit
 
 * Edit a commit message which is not yet pushed
 
@@ -155,18 +147,14 @@ Collection of git commands that you need to use quite often.
 
   `git push <remote_name> <branch_name> -f` or `git push <remote_name> <branch_name> --force`
 
-  More explanation: http://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commits
 
 * Revert specific files to specific commit:
 
   `git checkout <commit_id> -- <file1/to/restore> <file2/to/restore>`
 
-  More explanation: https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
 
 * Recover a branch after its deleted:
 
   `git checkout -b <branch_name> <sha>`
 
   To find sha do `git reflog` or in case you have just deleted your branch, then scroll up in terminal to find something like `Deleted branch <your_branch> (was <sha>)`
-
-  More explanation: https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git
