@@ -1,7 +1,7 @@
-# Git-Basics-June-2019
+# Github 101
 This repository is created to understand and test the Basics of Version Control using Git
 
-# Git-Commands
+## Git-Commands
 Collection of git commands that you need to use quite often.
 
 ## Some great links:
