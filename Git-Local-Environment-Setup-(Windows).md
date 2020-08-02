@@ -10,7 +10,7 @@ In this article we will cover how to set up a local environment in order to use 
 
 **Note: This article is for Windows users.**
 
-**1. Installing Git**
+## 1. Installing Git
 
 Firstly, let's install Git from [Git for Windows](https://gitforwindows.org/).
 
@@ -88,7 +88,7 @@ Now on your PC, there should be an application called **Git Bash** installed. 
 
 **Git Bash has been installed**
 
-**2. Initial Git Setup**
+## 2. Initial Git Setup
 
 First, let's open up **Git Bash**
 
@@ -101,8 +101,6 @@ After it opens, your screen should look like the one below.
 ![img/Untitled.png](img/Untitled.png)
 
 *Git Bash startup screen*
-
-                                                               *Git Bash startup screen*
 
 **Set up a username and email address**
 
@@ -121,9 +119,7 @@ Below is just an example.
 
 <img src="img/Untitled%201.png" alt="img/Untitled%201.png" style="zoom:80%;" />
 
-```tet
-                                     *Setting up the user details*
-```
+Setting up the user details*
 
 Now the initial setup is complete!
 
