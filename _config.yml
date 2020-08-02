@@ -1,3 +1,5 @@
 # theme: jekyll-theme-architect
 
-theme: bulma-clean-theme
+# theme: bulma-clean-theme
+
+remote_theme: chrisrhymes/bulma-clean-theme
