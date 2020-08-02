@@ -1,5 +1,5 @@
 # Github 101
-This repository is created to understand and test the Basics of Version Control using Git
+This repository contains Basics of Version Control using Git
 
 ## Git-Commands
 Collection of git commands that you need to use quite often.
