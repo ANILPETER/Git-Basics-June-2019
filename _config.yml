@@ -2,8 +2,4 @@
 
 # theme: bulma-clean-theme
 
-# remote_theme: chrisrhymes/bulma-clean-theme
-
-
-
-remote_theme: mmistakes/minimal-mistakes-jekyll
+remote_theme: chrisrhymes/bulma-clean-theme
